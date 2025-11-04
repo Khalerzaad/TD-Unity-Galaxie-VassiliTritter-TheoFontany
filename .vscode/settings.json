@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "TD-Unity-Galaxie-VassiliTritter.slnx"
+    "dotnet.defaultSolution": "TD-Unity-Galaxie-VassiliTritter-TheoFontany.slnx"
 }
