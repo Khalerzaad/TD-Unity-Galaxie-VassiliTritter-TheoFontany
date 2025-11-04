@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &65216586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100610455174279960, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+  m_PrefabInstance: {fileID: 5968703377986078968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +437,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1256125443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5868973148971316410, guid: ec8536a492325934dad42023314855d8, type: 3}
+  m_PrefabInstance: {fileID: 302208294382774336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1370699805
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,13 +662,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5868973148971316410, guid: ec8536a492325934dad42023314855d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 302208294382774338}
   m_SourcePrefab: {fileID: 100100000, guid: ec8536a492325934dad42023314855d8, type: 3}
 --- !u!4 &302208294382774337 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3122931337153102174, guid: ec8536a492325934dad42023314855d8, type: 3}
   m_PrefabInstance: {fileID: 302208294382774336}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &302208294382774338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256125443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe9ee57553cb4f4fb5af4a87847289f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ToggleOrbit
 --- !u!1001 &5968703377986078968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -718,13 +743,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100610455174279960, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5968703377986078970}
   m_SourcePrefab: {fileID: 100100000, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
 --- !u!4 &5968703377986078969 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4682286028932477020, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
   m_PrefabInstance: {fileID: 5968703377986078968}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5968703377986078970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65216586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe9ee57553cb4f4fb5af4a87847289f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ToggleOrbit
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
