@@ -655,6 +655,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4354895855350662134, guid: ec8536a492325934dad42023314855d8, type: 3}
+      propertyPath: m_Time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354895855350662134, guid: ec8536a492325934dad42023314855d8, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354895855350662134, guid: ec8536a492325934dad42023314855d8, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354895855350662134, guid: ec8536a492325934dad42023314855d8, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 0.50764084
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354895855350662134, guid: ec8536a492325934dad42023314855d8, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 0.021636963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354895855350662134, guid: ec8536a492325934dad42023314855d8, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].inSlope
+      value: -1.5068643
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354895855350662134, guid: ec8536a492325934dad42023314855d8, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].outSlope
+      value: -1.5068643
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354895855350662134, guid: ec8536a492325934dad42023314855d8, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].outWeight
+      value: 0.0846692
+      objectReference: {fileID: 0}
     - target: {fileID: 5868973148971316410, guid: ec8536a492325934dad42023314855d8, type: 3}
       propertyPath: m_Name
       value: Planet_Vass
@@ -699,6 +731,42 @@ PrefabInstance:
     - target: {fileID: 100610455174279960, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
       propertyPath: m_Name
       value: Planet_Theo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003069570506989935, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+      propertyPath: m_Time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003069570506989935, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3003069570506989935, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003069570506989935, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003069570506989935, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 0.5033684
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003069570506989935, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 0.030181885
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003069570506989935, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].inSlope
+      value: -1.4231929
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003069570506989935, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].outSlope
+      value: -1.4231929
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003069570506989935, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].outWeight
+      value: 0.08663825
       objectReference: {fileID: 0}
     - target: {fileID: 4682286028932477020, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
       propertyPath: m_LocalPosition.x

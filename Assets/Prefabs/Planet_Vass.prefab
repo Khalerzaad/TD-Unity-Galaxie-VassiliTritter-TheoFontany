@@ -169,17 +169,17 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.0059776306
-        value: 0.29824448
-        inSlope: -2.2882779
-        outSlope: -2.2882779
+        time: 0
+        value: 0.50337267
+        inSlope: -1.49416
+        outSlope: -1.49416
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.11982041
+        outWeight: 0.076793
       - serializedVersion: 3
-        time: 0.997758
-        value: 0.077194214
+        time: 1
+        value: 0.025909424
         inSlope: 0
         outSlope: 0
         tangentMode: 0
