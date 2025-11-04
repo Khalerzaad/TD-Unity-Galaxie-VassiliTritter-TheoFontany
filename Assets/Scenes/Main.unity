@@ -673,7 +673,7 @@ PrefabInstance:
       objectReference: {fileID: 2127904360}
     - target: {fileID: 100610455174279960, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
       propertyPath: m_Name
-      value: PlanetTheo
+      value: Planet_Theo
       objectReference: {fileID: 0}
     - target: {fileID: 4682286028932477020, guid: 2d4b244aa1a969249bbc8ddbfc43ca97, type: 3}
       propertyPath: m_LocalPosition.x

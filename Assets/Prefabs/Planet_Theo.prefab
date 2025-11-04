@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4682286028932477020}
   - component: {fileID: 13781002476361006}
   m_Layer: 0
-  m_Name: PlanetTheo
+  m_Name: Planet_Theo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ GameObject:
   - component: {fileID: 6807690083233809057}
   - component: {fileID: 3003069570506989935}
   m_Layer: 0
-  m_Name: Planet_Theo
+  m_Name: Planet Theo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
