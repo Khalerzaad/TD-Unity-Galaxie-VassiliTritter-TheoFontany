@@ -14,12 +14,13 @@ public class Orbits : MonoBehaviour
     {
         if (pivot != null)
         {
-            // orbite autour du pivot (axe Y)
-            transform.RotateAround(pivot.position, Vector3.up, angularSpeed * Time.deltaTime);
+            // la partie empty de la planète se place sur le pivot et rotate sur l'axe Y
+            transform.position = pivot.position;
+            transform.Rotate(Vector3.up, angularSpeed * Time.deltaTime, Space.Self);
         }
 
         // rotation sur soi-même (axe Y)
-        transform.Rotate(Vector3.up, selfRotationSpeed * Time.deltaTime, Space.Self);
+        transform.GetChild(0).transform.Rotate(Vector3.up, selfRotationSpeed * Time.deltaTime, Space.Self);
 
     }
     public void SetSelfRotationSpeed(float inputRotationSpeed)
@@ -29,5 +30,9 @@ public class Orbits : MonoBehaviour
     public void SetAngularSpeed(float inputAngularSpeed)
     {
         angularSpeed = inputAngularSpeed;
+    }
+    public void SetPivot(Transform inputPivot)
+    {
+        pivot = inputPivot;
     }
 }
