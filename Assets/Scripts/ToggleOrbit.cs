@@ -12,6 +12,7 @@ public class ToggleOrbit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (orbit == null) return;
         // Si on appuie espace
         if (Input.GetKeyDown(KeyCode.Space))
         {
